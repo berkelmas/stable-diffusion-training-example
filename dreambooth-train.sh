@@ -27,7 +27,7 @@ python train_dreambooth.py \
 --instance_data_dir=${TRAINML_DATA_PATH}/instance-data \
 --class_data_dir=${TRAINML_DATA_PATH}/regularization-data \
 --output_dir=${TRAINML_OUTPUT_PATH}  \
---with_prior_preservation --prior_loss_weight=0.7 \
+--with_prior_preservation --prior_loss_weight=1.0 \
 --instance_prompt="${2}" \
 --class_prompt="${1}" \
 --resolution=512  \
